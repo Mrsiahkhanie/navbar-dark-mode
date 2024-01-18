@@ -1,0 +1,100 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #FFF;
+  padding: 15px 7%;
+  transition: 0.5s ease-in-out;
+}
+
+.dark .navbar {
+  background: #000;
+  color: #FFF;
+}
+
+.logo_Img {
+  width: 160px;
+  cursor: pointer;
+}
+
+.nav_menu {
+  flex: 1;
+  text-align: center;
+}
+
+.nav_menu li {
+  list-style: none;
+  display: inline-block;
+  margin: 10px 20px;
+  font-size: 18px;
+}
+
+.nav_menu li a {
+  text-decoration: none;
+  font-weight: 500;
+  color: inherit;
+}
+
+.search_box {
+  padding: 10px 20px;
+  background: #242424;
+  border-radius: 50px;
+  transition: 0.5s ease-in-out;
+}
+
+.dark .search_box {
+  background: #FFF;
+}
+
+.search_box form{
+  max-width: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.search_box form input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  font-weight: 500;
+  background: transparent;
+  color: #FFF;
+  padding: 6px;
+  transition: 0.5s ease-in-out;
+}
+
+.dark .search_box form input,
+.dark .search_box form input::placeholder {
+  color: #222;
+}
+
+.search_box form input::placeholder {
+  color: #FFF;
+  transition: 0.5s ease-in-out;
+}
+
+.search_box form button {
+  background: transparent;
+  width: 20px;
+  height: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.search_box form button img{
+  width: inherit;
+}
+
+.dark_mode_toggle {
+  width: 50px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.dark_mode_toggle img {
+  width: inherit;
+}
+

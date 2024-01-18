@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+  width: 100vw;
+  min-height: 100vh;
+  background: #CED8FF;
+  transition: 0.5s ease-in-out;
+  /* background: #C6C6E8;  */
+}
+
+.wrapper.dark {
+  background: #222;
+}
